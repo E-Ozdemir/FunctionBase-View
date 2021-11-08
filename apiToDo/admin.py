@@ -9,7 +9,7 @@ class TodoAdmin(admin.ModelAdmin):
         "priority",
         "done",
         "updateDate",
-        
+        # "createDate",
     ]
     
     

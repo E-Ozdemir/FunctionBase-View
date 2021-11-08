@@ -13,8 +13,8 @@ class ToDo(models.Model):
     priority = models.CharField(max_length=50, choices=TITLE,default='L')
     
     done = models.BooleanField(default=False)
-    createDate = models.DateTimeField(auto_now_add=True)
     updateDate = models.DateTimeField(auto_now=True)
+    # createDate = models.DateTimeField(auto_now_add=True)
     
     def __str__(self):
         return self.task

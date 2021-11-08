@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     
     #myapps,
     'apiToDo',
-    
+    #3th party,
     'rest_framework',
 ]
 
